@@ -1,0 +1,61 @@
+#container{
+    width: 780px;
+    text-align: justify;
+    background-color: #fff;
+    margin: auto;
+}
+body{
+    background-color: #cccccc;
+    font-family: Verdana;
+    font-size: 11px;
+}
+p:first-letter{
+    color: blue;
+    font-weight: bold;
+    font-size: 38px;
+    font-family: 'Times New Roman';
+}
+#content{
+    width: 570px;
+    height: 240px;
+    float: right;
+    background-color: #fff;
+    padding-left:5px;
+    padding-right: 5px;
+}
+#nav{
+    width: 200px;
+    height: 240px;
+    float: left;
+    background-color: #e7e7e7;
+    text-indent:5px;
+}
+#header{
+    text-indent:25px;
+    padding-top:2px;
+    height:50px;
+    background-color:#b0b0b0;
+    width: 780px;
+}
+ul {
+margin: 0;
+padding: 0;
+list-style: none;
+}
+a{
+    display: block;
+    width: 200px;
+    height: 40px;
+    line-height: 40px;
+    color: #000000;
+    text-decoration: none;
+    font-size: 12px;
+    background: url(images/rol.gif) no-repeat left bottom;
+    text-indent: 40px;
+}
+a:hover{
+    background-position: right bottom;
+    color:white;
+    font-weight: bold;
+}
+
